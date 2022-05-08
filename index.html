@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment_style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="main_heading">Payment form</h1>
+  
+  
+ 
+  
+    
+  <form action="mailto:himanshu.dhoundiyal.123@gmail.com" class="first" enctype="text/plain">
+     
+    <h2 class="second">Contact Information</h2>
+  
+  <p>Name: *<input type="text" name="name" required placeholder="harry white"></p>
+  <fieldset>
+      <legend>Gender</legend>
+          <p>
+              male: *<input type="radio" name="gender" id="male" required>
+              female: *<input type="radio" name="gender" id="female"required>
+          </p>
+     
+  </fieldset>
+  <p>Address:
+      <textarea name="Address" id="Address" cols="100" rows="6" placeholder="enter the address"></textarea></p>
+  <p>email: *<input type="email" name="email" id="email" required></p>
+  <p>pincode: *<input type="number" name="pincode" id="pincode"required></p>
+<hr>
+<h2>Payment information</h2>
+
+<nav>
+    accepted card <br>
+         
+    <img src="img/4.png" alt="" width="40px" class="box">
+    <img src="img/wallpaperflare.com_wallpaper (1).jpg" alt="" width="40px" class="box">
+    <img src="img/2.jpg" alt="" width="40px" class="box">
+</nav>
+<p>
+card type: *
+<select name="card_type" id="card_type" required>
+    <option value="">--select card type--</option>
+    <option value="visa">visa</option>
+    <option value="mastercard">mastercard</option>
+    <option value="rupay">rupay</option>
+</select>
+</p>
+<p>card number: *<input type="number" name="cardnumber" id="cardnumber" required placeholder="1111-2222-3333-4444"></p>
+<p>expiration date: *<input type="date" name="expiration_date" id="expiration_date" required></p>
+<p>CVV: *<input type="password" name="cvv" id="cvv" placeholder="123"></p>
+<p class="submit"><input type="submit" value="pay now">
+</p>
+</form>
+</div>
+
+</body>
+</html>
